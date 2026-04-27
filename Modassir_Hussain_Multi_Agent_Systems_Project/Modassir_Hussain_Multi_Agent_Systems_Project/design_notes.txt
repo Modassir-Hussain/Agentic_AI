@@ -1,0 +1,33 @@
+Munder Difflin Multi-Agent System Design Notes
+
+Framework
+- The project uses pydantic-ai.
+- The system contains four agents: orchestrator, inventory, quote, and fulfillment.
+- This stays within the README limit of five agents.
+
+How It Works
+- The orchestrator is the public entrypoint for customer requests.
+- For order requests, the orchestrator delegates inventory review and quote generation through framework tool calls.
+- After both worker results return, the orchestrator delegates fulfillment.
+- The fulfillment agent is the only agent allowed to write transactions to the database.
+- All communication between stages is text or structured tool payloads.
+
+OpenAI Usage
+- The orchestrator uses the OpenAI-compatible setup from the README when `UDACITY_OPENAI_API_KEY` is present.
+- The code also supports `UDACITY_OPENAI_MODEL` and defaults to `gpt-4o-mini`.
+- If no API key is configured, the orchestrator falls back to the existing deterministic path so the project can still be run locally.
+
+Worker Responsibilities
+- Inventory agent: checks stock, shortages, reorder needs, supplier delivery feasibility, and available cash for reorders.
+- Quote agent: computes subtotal, bulk discount, final price, and consults quote history plus the financial report.
+- Fulfillment agent: creates stock-order and sales transactions for approved requests.
+
+Data Sources And Tools
+- SQLite database for inventory, quote history, requests, and transactions.
+- Starter helper functions used through tools: get_all_inventory, get_stock_level, get_supplier_delivery_date, get_cash_balance, generate_financial_report, search_quote_history, and create_transaction.
+
+Submission Artifacts
+- project_starter.py contains the full implementation.
+- agent_workflow.png is the workflow diagram image.
+- test_results.csv contains the evaluation output.
+- reflection_report.md explains the implementation decisions and results.

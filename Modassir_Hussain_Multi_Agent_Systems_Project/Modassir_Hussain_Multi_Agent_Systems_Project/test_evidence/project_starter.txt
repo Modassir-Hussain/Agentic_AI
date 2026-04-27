@@ -1,0 +1,376 @@
+Initializing Database...
+
+=== Request 1 ===
+Context: office manager organizing ceremony
+Request Date: 2025-04-01
+Cash Balance: $45059.70
+Inventory Value: $4940.30
+Response: Your order for the following paper supplies has been confirmed and processed successfully:
+
+- **200 sheets of A4 glossy paper**
+- **100 sheets of heavy cardstock (white)**
+- **100 sheets of colored paper (assorted colors)**
+
+### Details:
+- **Total Cost:** $61.75 (after a 5% discount)
+- **Due Date for Delivery:** April 15, 2025
+- **Status:** Order recorded successfully, and all items are in stock.
+
+Thank you for your request! If you need anything else, feel free to ask.
+Updated Cash: $45121.45
+Updated Inventory: $4875.30
+
+=== Request 2 ===
+Context: hotel manager organizing parade
+Request Date: 2025-04-03
+Cash Balance: $45121.45
+Inventory Value: $4875.30
+FUNC (get_supplier_delivery_date): Calculating for qty 66 from date string '2025-04-03'
+Response: Your order request cannot be fulfilled due to an issue with one of the items. Specifically, we could not map "balloons" to a supported catalog item, which blocked the order process. 
+
+- **Colorful Poster Paper (Large 24x36 inches)**: Available (500 sheets requested, 699 in stock).
+- **Crepe Paper (Streamers)**: Requires a reorder of 66 units (234 in stock, 300 requested).
+- **Balloons**: Not mappable to any item in our inventory.
+
+If you'd like to adjust your order or choose alternative items, please let us know!
+Updated Cash: $45121.45
+Updated Inventory: $4875.30
+
+=== Request 3 ===
+Context: school board resouorce manager organizing conference
+Request Date: 2025-04-04
+Cash Balance: $45121.45
+Inventory Value: $4875.30
+FUNC (get_supplier_delivery_date): Calculating for qty 228 from date string '2025-04-04'
+FUNC (get_supplier_delivery_date): Calculating for qty 9728 from date string '2025-04-04'
+Response: I cannot fulfill your order request for 10,000 sheets of A4 paper, 5,000 sheets of A3 paper, and 500 reams of printer paper. The order is blocked primarily due to the inability to map the 'A3 paper' to a supported catalog item. 
+
+- **A4 Paper**: We have a current stock of 272 sheets, and a supplier delivery can meet your requirement by April 11, 2025, but you have a shortage of 9,728 sheets.
+- **A3 Paper**: We are unable to source this item.
+- **Printer Paper**: Our stock allows for a 228-sheet order, which can arrive by April 8, 2025.
+
+Please consider modifying your order or providing alternatives for items that could not be mapped.
+Updated Cash: $45121.45
+Updated Inventory: $4875.30
+
+=== Request 4 ===
+Context: non-profit director organizing reception
+Request Date: 2025-04-05
+Cash Balance: $45121.45
+Inventory Value: $4875.30
+FUNC (get_supplier_delivery_date): Calculating for qty 5 from date string '2025-04-05'
+Response: Your order has been successfully confirmed. Here are the details:
+
+- **Items Ordered**:
+  - **Cardstock**: 500 sheets (5 units pending order from supplier, expected delivery by April 5, 2025)
+  - **A4 size printer paper**: 250 sheets (In stock)
+
+- **Total Cost**: $83.12 (after a 5% bulk discount)
+
+The order is set to be delivered by April 15, 2025. Additional supplier orders for the cardstock have been placed. Thank you for choosing Munder Difflin!
+Updated Cash: $45203.82
+Updated Inventory: $4788.55
+
+=== Request 5 ===
+Context: school teacher organizing party
+Request Date: 2025-04-05
+Cash Balance: $45203.82
+Inventory Value: $4788.55
+FUNC (get_supplier_delivery_date): Calculating for qty 300 from date string '2025-04-05'
+Response: Your order request for the following items could not be fulfilled due to inventory limitations:
+
+1. **500 sheets of 8.5" x 11" colored paper** (In stock: 688, can fulfill)
+2. **300 sheets of cardstock** (In stock: 0, supplier delivery by April 9, 2025, can fulfill)
+3. **200 rolls of decorative washi tape** (Not in tracked inventory, cannot fulfill)
+
+The total quote for the order was estimated at **$120.15** after an 11% bulk discount. However, fulfillment is blocked as we cannot provide the decorative washi tape.
+
+If you would like to adjust your order or explore alternatives, please let me know!
+Updated Cash: $45203.82
+Updated Inventory: $4788.55
+
+=== Request 6 ===
+Context: school teacher organizing assembly
+Request Date: 2025-04-06
+Cash Balance: $45203.82
+Inventory Value: $4788.55
+FUNC (get_supplier_delivery_date): Calculating for qty 278 from date string '2025-04-06'
+FUNC (get_supplier_delivery_date): Calculating for qty 200 from date string '2025-04-06'
+Response: Your order has been successfully confirmed. Here are the details:
+
+- **Ordered Items:**
+  - 500 sheets of **Colored Construction Paper** - In stock (688 sheets available).
+  - 300 sheets of **White Printer Paper (A4)** - 278 sheets ordered from the supplier (expected delivery: April 10, 2025).
+  - 200 sheets of **Cardstock** - 200 sheets ordered from the supplier (expected delivery: April 10, 2025).
+
+- **Total Cost:** $85.50 (after a 10% discount applied to the subtotal of $95.00).
+
+Your supplies will be delivered by **April 15, 2025**, in time for your assembly. Thank you for your order!
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+=== Request 7 ===
+Context: business owner organizing exhibition
+Request Date: 2025-04-07
+Cash Balance: $45245.42
+Inventory Value: $4737.45
+FUNC (get_supplier_delivery_date): Calculating for qty 200 from date string '2025-04-07'
+FUNC (get_supplier_delivery_date): Calculating for qty 113 from date string '2025-04-07'
+Response: Your order request cannot be fulfilled due to a stock issue with one of the items. Here's a summary:
+
+1. **Glossy A4 Paper:** 500 sheets requested. Currently, 387 sheets in stock, short by 113 sheets. An order can be placed to replenish and should arrive by April 11, 2025.
+2. **Matte A3 Paper:** 1000 sheets requested, but this item is not in the tracked inventory and cannot be supplied.
+3. **Poster Boards (24" x 36"):** 300 boards requested. In stock and available.
+4. **Heavyweight Cardstock:** 200 sheets requested. Currently, 0 in stock, but an order can be placed with delivery by April 11, 2025.
+
+**Quote Summary:**
+- Subtotal: $610.00
+- Discount: 18%
+- Final Total: $500.20
+
+**Reasons for Rejection:**
+The order cannot be processed because the Matte A3 paper exists in the broader catalog but is not part of the tracked inventory.
+
+If you wish to adjust your order or have any further questions, please let us know!
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+=== Request 8 ===
+Context: school board resouorce manager organizing ceremony
+Request Date: 2025-04-07
+Cash Balance: $45245.42
+Inventory Value: $4737.45
+FUNC (get_supplier_delivery_date): Calculating for qty 1812 from date string '2025-04-07'
+FUNC (get_supplier_delivery_date): Calculating for qty 113 from date string '2025-04-07'
+Response: Your order request for the following items has been processed, but unfortunately cannot be fulfilled as requested:
+
+- 500 sheets of A4 glossy paper: **Shortage of 113 sheets**, can be replenished by **April 11, 2025**.
+- 1000 sheets of A4 matte paper: **Not in tracked inventory**; cannot be fulfilled.
+- 2000 sheets of A5 colored paper: **Shortage of 1812 sheets**, can be replenished by **April 14, 2025**.
+- 3000 sheets of A4 recycled paper: **Not in tracked inventory**; cannot be fulfilled.
+
+### Pricing Summary:
+The total for your requested items before considering shortages is **$720.00**, with an **18% discount applied**, bringing the total to **$590.40**. However, due to inventory issues with the matte and recycled paper, fulfillment of this order is blocked.
+
+Please consider adjusting your order or selecting alternative items. Feel free to reach out for further assistance!
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+=== Request 9 ===
+Context: city hall clerk organizing reception
+Request Date: 2025-04-07
+Cash Balance: $45245.42
+Inventory Value: $4737.45
+FUNC (get_supplier_delivery_date): Calculating for qty 200 from date string '2025-04-07'
+Response: Your order request cannot be fulfilled due to the following reasons:
+
+1. **A4 White Printer Paper**: We need 200 more units, but the supplier's estimated delivery date is April 11, 2025, which misses your requested delivery date of April 10, 2025.
+2. **100% Recycled Kraft Paper Envelopes**: While these exist in our broader catalog, they are not part of the tracked inventory necessary to fulfill your order.
+
+Unfortunately, we cannot proceed with the order as the required items won't arrive in time. If you would like to adjust your order or choose different items, please let us know.
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+=== Request 13 ===
+Context: school principal organizing gathering
+Request Date: 2025-04-08
+Cash Balance: $45245.42
+Inventory Value: $4737.45
+FUNC (get_supplier_delivery_date): Calculating for qty 500 from date string '2025-04-08'
+FUNC (get_supplier_delivery_date): Calculating for qty 200 from date string '2025-04-08'
+Response: Your order request for 500 sheets of A4 printing paper and 200 sheets of cardstock has been reviewed, but unfortunately, it cannot be fulfilled. 
+
+The reasons for this are:
+- There are currently no A4 sheets in stock, and we cannot obtain 500 units in time, as the supplier's estimated delivery is April 12, 2025, which is after your required date.
+- Similarly, we cannot provide 200 sheets of cardstock, as the supplier delivery date also falls on April 12, 2025.
+
+If you need any alternative options or wish to adjust your order, please let me know!
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+=== Request 12 ===
+Context: city hall clerk organizing party
+Request Date: 2025-04-08
+Cash Balance: $45245.42
+Inventory Value: $4737.45
+FUNC (get_supplier_delivery_date): Calculating for qty 500 from date string '2025-04-08'
+FUNC (get_supplier_delivery_date): Calculating for qty 12 from date string '2025-04-08'
+Response: Your order request has been reviewed. Here are the details:
+
+1. **Colorful Cardstock**: 200 sheets requested; current stock is 188 sheets, resulting in a shortage of 12 sheets. A supplier order can fulfill this and is projected for delivery by April 9, 2025.
+
+2. **Standard Printer Paper**: 500 sheets requested; current stock is zero, with a supplier order projected for delivery by April 12, 2025.
+
+3. **Paper Napkins**: 100 requested; however, this item is not available in our tracked inventory, and fulfillment for it cannot be completed.
+
+### Summary
+- **Total Cost**: $42.30 (after a 10% discount on a subtotal of $47.00).
+- **Due Date**: April 15, 2025.
+- **Fulfillment Status**: Unable to fulfill your order due to the unavailability of paper napkins in tracked inventory.
+
+Your order has been blocked because we cannot supply the paper napkins. If you want to proceed without them or make any changes, please let us know!
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+=== Request 10 ===
+Context: business owner organizing show
+Request Date: 2025-04-08
+Cash Balance: $45245.42
+Inventory Value: $4737.45
+FUNC (get_supplier_delivery_date): Calculating for qty 113 from date string '2025-04-08'
+FUNC (get_supplier_delivery_date): Calculating for qty 300 from date string '2025-04-08'
+Response: Your order has been successfully placed and confirmed. Here are the details:
+
+- **Items Ordered:**
+  - 500 sheets of **High-Quality Glossy Paper**: 387 sheets in stock, requiring an additional 113 sheets to be ordered, expected delivery by **April 12, 2025**.
+  - 300 sheets of **Sturdy Cardstock**: Currently out of stock, requiring a full order of 300 sheets, expected delivery also by **April 12, 2025**.
+
+- **Total Cost: $129.05** (includes an 11% bulk discount).
+
+Your supplies will be delivered by **April 15, 2025**, as requested. Thank you for choosing Munder Difflin!
+Updated Cash: $45306.87
+Updated Inventory: $4660.05
+
+=== Request 11 ===
+Context: event manager organizing exhibition
+Request Date: 2025-04-08
+Cash Balance: $45306.87
+Inventory Value: $4660.05
+FUNC (get_supplier_delivery_date): Calculating for qty 500 from date string '2025-04-08'
+Response: Your order request for 500 sheets of A3 glossy paper and 300 sheets of A4 matte paper cannot be fulfilled due to inventory issues. Here are the details:
+
+- **A3 Glossy Paper**:
+  - Current Stock: 0 sheets
+  - Shortage: 500 sheets
+  - Supplier Delivery Date: 2025-04-12 (can meet the due date)
+
+- **A4 Matte Paper**:
+  - Current Stock: 0 sheets
+  - Shortage: 300 sheets
+  - Cannot fulfill as it's not in our tracked inventory.
+
+Total cost for the glossy paper before any applicable discounts would have been $154. With a 10% bulk discount, the final quote would have been $138.60. However, we cannot proceed with the order because of the matte paper issue. 
+
+Please consider alternatives or substitutions for the matte paper to proceed.
+Updated Cash: $45059.70
+Updated Inventory: $4940.30
+
+=== Request 14 ===
+Context: city hall clerk organizing performance
+Request Date: 2025-04-09
+Cash Balance: $45059.70
+Inventory Value: $4940.30
+FUNC (get_supplier_delivery_date): Calculating for qty 1301 from date string '2025-04-09'
+FUNC (get_supplier_delivery_date): Calculating for qty 4728 from date string '2025-04-09'
+Response: Your order request has been reviewed, but unfortunately, it cannot be fulfilled at this time. 
+
+- **A4 paper**: You need 5,000 sheets, but we currently only have 272 in stock, resulting in a shortage of 4,728 sheets. The supplier's estimated delivery date is April 16, 2025, which misses your requested delivery date of April 15, 2025.
+- **Poster paper**: You requested 2,000 sheets, and we currently have 699 in stock, leading to a shortage of 1,301 sheets, with the supplier also unable to meet the due date.
+- **Cardstock**: You requested 500 sheets, but we can fulfill this part of the order as we have sufficient stock.
+
+Due to the shortages for A4 and poster paper, your order is blocked and will not proceed. If you would like, we can assist you with alternative options or help in adjusting your order. Please let us know how you would like to proceed!
+Updated Cash: $45121.45
+Updated Inventory: $4875.30
+
+=== Request 15 ===
+Context: event manager organizing demonstration
+Request Date: 2025-04-12
+Cash Balance: $45121.45
+Inventory Value: $4875.30
+FUNC (get_supplier_delivery_date): Calculating for qty 9728 from date string '2025-04-12'
+FUNC (get_supplier_delivery_date): Calculating for qty 4312 from date string '2025-04-12'
+Response: Your order request has been reviewed, and unfortunately, it cannot be fulfilled for the following reasons:
+
+1. **A4 White Paper**: There is a shortage of 9728 sheets, and the earliest supplier delivery date is April 19, 2025, which misses your requested delivery date of April 15, 2025.
+2. **A3 Colored Paper**: There is a shortage of 4312 sheets, with the same supplier delivery issue as above.
+3. **Cardboard for Signage**: This item could not be mapped to a supported catalog item, and therefore cannot be ordered.
+
+Given these issues, we recommend reconsidering your timeline or altering the order to meet availability constraints.
+Updated Cash: $45121.45
+Updated Inventory: $4875.30
+
+=== Request 16 ===
+Context: school teacher organizing assembly
+Request Date: 2025-04-13
+Cash Balance: $45121.45
+Inventory Value: $4875.30
+FUNC (get_supplier_delivery_date): Calculating for qty 228 from date string '2025-04-13'
+Response: Your order request cannot be fulfilled due to a shortage of A4 printer paper. Specifically, we need 228 more units, and the supplier's estimated delivery date is April 17, 2025, which misses your requested delivery date of April 15, 2025. 
+
+However, the colorful construction paper and poster board are available and can be included in your order.
+
+Please let me know how you'd like to proceed!
+Updated Cash: $45121.45
+Updated Inventory: $4875.30
+
+=== Request 17 ===
+Context: restaurant manager organizing reception
+Request Date: 2025-04-14
+Cash Balance: $45121.45
+Inventory Value: $4875.30
+FUNC (get_supplier_delivery_date): Calculating for qty 728 from date string '2025-04-14'
+Response: Your order request for paper supplies cannot be fulfilled due to the following reasons:
+
+1. **A4 white printer paper**: We are short by 728 units, and the supplier's delivery date of April 18, 2025, misses your requested delivery date of April 15, 2025.
+2. **Table napkins**: This item is available in the broader catalog but not in our tracked inventory.
+3. **Biodegradable paper cups**: Similar to napkins, this item exists in the catalog but is not part of our tracked inventory.
+
+As a result, the fulfillment of your order is blocked. If you'd like to make substitutions or adjustments to meet your needs, please let us know!
+Updated Cash: $45203.82
+Updated Inventory: $4788.55
+
+=== Request 18 ===
+Context: office manager organizing ceremony
+Request Date: 2025-04-14
+Cash Balance: $45203.82
+Inventory Value: $4788.55
+FUNC (get_supplier_delivery_date): Calculating for qty 978 from date string '2025-04-14'
+FUNC (get_supplier_delivery_date): Calculating for qty 500 from date string '2025-04-14'
+Response: Your order request for paper supplies has been rejected due to inventory issues. Here are the reasons:
+
+- **High-quality white cardstock**: Needs 500 more units, with an estimated supplier delivery date of April 18, 2025, which misses your required delivery date of April 15, 2025.
+- **Standard printing paper (A4)**: Needs 978 more units, also estimated to be delivered on April 18, 2025, missing your required date.
+
+The colored paper is available in stock and can be fulfilled.
+
+If you have any further questions or would like to adjust your order, please let me know!
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+=== Request 19 ===
+Context: city hall clerk organizing exhibition
+Request Date: 2025-04-15
+Cash Balance: $45245.42
+Inventory Value: $4737.45
+FUNC (get_supplier_delivery_date): Calculating for qty 1000 from date string '2025-04-15'
+FUNC (get_supplier_delivery_date): Calculating for qty 1613 from date string '2025-04-15'
+Response: We are unable to fulfill your order for the upcoming exhibition. Here are the details regarding the items requested:
+
+1. **A4 Glossy Paper**: You requested 2,000 sheets. We currently have only 387 sheets in stock, resulting in a shortage of 1,613 sheets. The supplier estimates delivery on April 22, 2025, which is after your requested date of April 20, 2025.
+
+2. **A3 Matte Paper**: You requested 1,500 sheets, but this item is not available in our tracked inventory, making it unfulfillable.
+
+3. **Cardstock**: Although we have a shortage of 1,000 sheets, we can fulfill this item as we can reorder it with a delivery date of April 19, 2025.
+
+Due to these issues, your order has been rejected. Please let us know if you'd like to modify your request or order alternative items.
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+=== Request 20 ===
+Context: restaurant manager organizing concert
+Request Date: 2025-04-17
+Cash Balance: $45245.42
+Inventory Value: $4737.45
+FUNC (get_supplier_delivery_date): Calculating for qty 1301 from date string '2025-04-17'
+Response: Your order request has been reviewed, but unfortunately, fulfillment cannot proceed due to the following issues:
+
+1. **Flyers**: While this item exists in our broader catalog, it is not part of the tracked inventory, and we cannot fulfill the requested quantity of 5,000 flyers.
+2. **Tickets**: We were unable to map the requested tickets to a supported catalog item, resulting in an inability to fulfill the order for 10,000 tickets.
+
+As such, the fulfillment status is rejected. If you have alternative items or adjustments to your order, please let us know!
+Updated Cash: $45245.42
+Updated Inventory: $4737.45
+
+===== FINAL FINANCIAL REPORT =====
+Final Cash: $45245.42
+Final Inventory: $4737.45

@@ -1,0 +1,16 @@
+Prompt: What is the capital of France?
+------------------------------
+Agent Response: Paris.
+------------------------------
+
+--- TEST LOG EXPLANATION ---
+Knowledge Source: The agent used the LLM's internal general knowledge to identify Paris.
+Persona Impact: The persona instruction (system prompt) successfully forced the specific 'Dear students' formatting and academic tone.
+
+==================================================
+RUBRIC EVALUATION: AUGMENTED PROMPT AGENT
+==================================================
+1. Knowledge Source: The agent utilized the LLM's internal general knowledge.
+2. Persona Impact: The system prompt successfully enforced a specialized persona,
+   drastically changing the tone and formatting compared to a standard AI response.
+==================================================

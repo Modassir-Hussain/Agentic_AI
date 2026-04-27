@@ -1,0 +1,181 @@
+request_id,request_date,cash_balance,inventory_value,response
+1,2025-04-01,45121.45,4875.3,"Your order for the following paper supplies has been confirmed:
+
+- **200 sheets of A4 glossy paper**
+- **100 sheets of heavy cardstock (white)**
+- **100 sheets of colored paper (assorted colors)**
+
+### Order Summary:
+- **Total Cost:** $61.75 (after a 5% bulk discount)
+- **Delivery Date:** April 15, 2025
+- **Stock Availability:** All items are currently in stock and will be available for delivery by the requested date.
+
+Your order has been successfully recorded. Thank you for choosing Munder Difflin!"
+2,2025-04-03,45121.45,4875.3,"Your order request cannot be fulfilled due to the following reasons:
+
+1. **Colorful Poster Paper**: Available in stock (699 sheets), sufficient for your request of 500 sheets.
+2. **Streamers (Crepe Paper)**: Needs a reorder of 66 units, but can be delivered by April 4, 2025, which is before your due date.
+3. **Balloons**: Unfortunately, we could not map this item to a supported catalog product, resulting in an inability to fulfill your request for 200 balloons.
+
+As a result of these issues, we cannot place your order at this time. Please consider revising your order or consulting alternative options for balloons."
+3,2025-04-04,45121.45,4875.3,"Your order request for 10,000 sheets of A4 paper, 5,000 sheets of A3 paper, and 500 reams of printer paper cannot be fulfilled. 
+
+Here are the key points regarding your request:
+- **A4 Paper**: We currently have a shortage of 9,728 sheets, but we can reorder and expect delivery by April 11, 2025.
+- **A3 Paper**: This item could not be mapped to a supported catalog item, preventing us from fulfilling the request.
+- **Printer Paper**: We are short by 228 sheets, but we can reorder and expect delivery by April 8, 2025.
+
+Due to the inability to process the A3 paper, the order has been rejected. If you want to proceed with only the A4 paper and printer paper while excluding the A3 paper, please let us know!"
+4,2025-04-05,45203.82,4788.55,"Your order is confirmed successfully! Here are the details:
+
+- **Items Ordered:**
+  - **500 sheets of high-quality, recycled cardstock:** 5 additional units are being ordered from the supplier and are expected to arrive today, April 5, 2025.
+  - **250 sheets of A4 size printer paper:** In stock.
+
+- **Cost:**
+  - **Subtotal:** $87.50
+  - **Discount:** 5%
+  - **Final Total:** $83.12
+
+- **Order Status:** Fulfilled and confirmed.
+- **Delivery Date:** Set for April 15, 2025.
+
+Thank you for your order! If you have any more questions or need assistance, feel free to ask."
+5,2025-04-05,45203.82,4788.55,"Your order request for 500 sheets of 8.5""x11"" colored paper, 300 sheets of cardstock, and 200 rolls of decorative washi tape could not be fulfilled due to the following reasons:
+
+1. **Colored Paper**: Available in stock — no issues.
+2. **Cardstock**: Requires a supplier order (shortage of 300 units), but can arrive by April 9, 2025, and meets your due date.
+3. **Decorative Washi Tape**: Not in tracked inventory and cannot be fulfilled.
+
+Consequently, the fulfillment process has been blocked because the washi tape is not part of our currently tracked inventory.
+
+If you’d like to adjust your order or provide alternatives, please let us know!"
+6,2025-04-06,45254.72,4718.65,"Your order for the following items has been confirmed:
+
+- **500 sheets of colorful construction paper**: Additional order placed for **312 units** (Expected delivery: April 10, 2025)
+- **300 sheets of white printer paper**: Additional order placed for **550 units** (Expected delivery: April 10, 2025)
+- **200 sheets of cardstock in various colors**: Additional order placed for **400 units** (Expected delivery: April 10, 2025)
+
+The total cost for your order after a bulk discount is **$85.50**. 
+
+All items are set to be delivered by **April 15, 2025**, in time for your assembly."
+7,2025-04-07,45254.72,4718.65,"Your order request cannot be fulfilled due to an issue with one of the items: 
+
+- **Matte A3 paper** is not in our tracked inventory subset, even though it exists in our broader catalog. 
+
+The order includes:
+- **500 sheets of glossy A4 paper**: Requires additional stock (113 sheets), can be delivered by **April 11, 2025**.
+- **300 poster boards (24"" x 36"")**: Sufficient stock available.
+- **200 sheets of heavyweight cardstock**: Requires additional stock (200 sheets), can also be delivered by **April 11, 2025**.
+
+The total quote for the items that can be supplied is **$500.20**, which reflects an 18% bulk discount.
+
+Unfortunately, we cannot proceed with the order as is due to the matte paper shortage. Would you like assistance in modifying the order or discussing alternatives?"
+8,2025-04-07,45254.72,4718.65,"Your order request for paper supplies has been reviewed, but unfortunately, it cannot be fulfilled at this time. Here are the key points from the inventory and quoting process:
+
+- **A4 Glossy Paper**: Only 387 sheets are in stock, resulting in a shortage of 113 sheets. A supplier order is needed, which can arrive by April 11, 2025.
+- **A4 Matte Paper**: This item exists in the broader catalog but is not available in tracked inventory, resulting in a total shortage of 1000 sheets.
+- **A5 Colored Paper**: Requires 2000 sheets, with a projected delivery by April 14, 2025, but it is currently out of stock.
+- **A4 Recycled Paper**: Similar to matte paper, this exists in the catalog but not in tracked inventory.
+
+The total cost for the available items would have been **$590.40** after an 18% bulk discount, but due to the unavailability of matte and recycled paper, the fulfillment is blocked.
+
+To proceed, you may consider adjusting your order or selecting different items. Please let me know how you would like to proceed!"
+9,2025-04-07,45254.72,4718.65,"Your order request cannot be fulfilled for the following reasons:
+
+1. **A4 White Printer Paper**: We currently have 0 units in stock and require 200 additional units. The estimated delivery from the supplier is on April 11, 2025, which misses your requested delivery date of April 10, 2025.
+
+2. **Kraft Paper Envelopes**: While these envelopes exist in our broader catalog, they are not tracked in our inventory at this time.
+
+Since both items present availability issues, the fulfillment of your order has been rejected. If you would like to adjust your order or inquire about alternative products, please let us know!"
+13,2025-04-08,45316.170000000006,4641.25,"Your order request for 500 sheets of A4 printing paper and 200 sheets of cardstock cannot be fulfilled. The inventory review indicates:
+
+- **A4 Paper**: A shortage of 500 units, with a supplier delivery date of April 12, 2025, which is after your requested delivery date.
+- **Cardstock**: A shortage of 200 units, also with a supplier delivery date of April 12, 2025.
+
+As a result, fulfillment is blocked due to these delays. If you would like to adjust your order or explore alternatives, please let me know!"
+12,2025-04-08,45316.170000000006,4641.25,"Your order request for 200 sheets of colorful cardstock, 500 sheets of standard printer paper, and 100 paper napkins cannot be fulfilled due to the following reason:
+
+- **Paper Napkins**: This item exists in the broader catalog but is not part of the tracked inventory, preventing fulfillment of your order.
+
+The colorful cardstock and standard printer paper can be reordered and would arrive by April 12, but since one item is not available, the entire order is blocked. 
+
+If you have any further questions or need assistance with alternative options, please let me know."
+10,2025-04-08,45300.22,4641.25,"Your order for 500 sheets of high-quality glossy paper and 300 sheets of sturdy cardstock has been successfully confirmed. 
+
+### Order Summary:
+- **Glossy Paper:** 500 sheets; expected delivery by **April 12, 2025**.
+- **Cardstock:** 300 sheets; expected delivery by **April 12, 2025**.
+- **Total Cost:** $129.05 (after an 11% bulk discount applied).
+
+The items should be delivered in time for your show on **April 15, 2025**. Thank you for your order!"
+11,2025-04-08,45300.22,4641.25,"Your order request for 500 sheets of A3 glossy paper and 300 sheets of A4 matte paper cannot be fulfilled. Here’s the summary:
+
+- **A3 Glossy Paper:** We can fulfill this part of the order. The total cost is $138.60 after a 10% bulk discount. The supplier can deliver the glossy paper by April 12, 2025, which meets your due date.
+  
+- **A4 Matte Paper:** Unfortunately, we cannot fulfill this request because the matte paper exists in our broader catalog but is not available in the tracked inventory. There is no delivery date available for the matte paper.
+
+Please let us know if you would like to proceed with the order for the glossy paper or if there are any adjustments you'd like to make!"
+14,2025-04-09,45300.22,4641.25,"Your order request cannot be fulfilled for the following reasons:
+
+1. **A4 Paper**: We are short 5,000 units, and the supplier's estimated delivery date is April 16, 2025, which misses your requested delivery date of April 15, 2025.
+2. **Large Poster Paper (24x36 inches)**: We are short 1,301 units, and the supplier's estimated delivery date is also April 16, 2025, which misses your requested delivery date.
+3. **Cardstock**: We can fulfill this item with a delivery date of April 13, 2025, but it does not address the overall order needs.
+
+Due to these limitations, your order is rejected. If you would like, we can assist you with alternative orders or inventory adjustments."
+15,2025-04-12,45300.22,4641.25,"Your request for a large order of high-quality paper supplies has been rejected due to inventory constraints. Here are the reasons:
+
+1. **A4 White Paper**: A total of 10,000 sheets are needed, but our current stock is 0. The supplier's delivery date is estimated to be April 19, 2025, which misses your requested delivery date of April 15, 2025.
+   
+2. **A3 Colored Paper**: You requested 5,000 sheets, but we also currently have 0 in stock. The supplier's delivery estimate is similarly after your required date.
+   
+3. **Cardboard for Signage**: We could not map this item to a supported catalog item, and thus cannot fulfill this request.
+
+Unfortunately, we are unable to fulfill your order as requested. If you would like assistance in finding alternative solutions or different items, please let us know!"
+16,2025-04-13,45059.7,4940.299999999999,"Your order request for the following items cannot be fulfilled:
+
+1. **A4 printer paper**: 500 sheets
+   - Current stock: 0
+   - Supplier delivery date: April 17, 2025 (misses your requested delivery date)
+   
+2. **Colorful construction paper**: 200 sheets
+   - Current stock: 0
+   - Supplier delivery date: April 17, 2025 (misses your requested delivery date)
+
+3. **Poster board**: 100 sheets
+   - Current stock is sufficient (available).
+
+Unfortunately, due to the supplier delays for the A4 paper and colorful construction paper, the fulfillment is blocked. If you have other items in mind or need adjustments, please let me know!"
+17,2025-04-14,45121.45,4875.3,"Your order request for paper supplies cannot be fulfilled due to the following issues:
+
+1. **A4 White Printer Paper**: We currently have only 272 sheets in stock, needing an additional 728 sheets. The supplier estimates delivery on **April 18, 2025**, which is past your required delivery date of **April 15, 2025**.
+   
+2. **Table Napkins**: This item exists in our broader catalog but is not available in our tracked inventory, making it unfulfillable at this time.
+
+3. **Biodegradable Paper Cups**: Similar to the napkins, this item also exists in our catalog but is not available in tracked inventory.
+
+Therefore, the fulfillment of your order has been blocked. If you have alternative items or quantities in mind, please let us know."
+18,2025-04-14,45121.45,4875.3,"Your order request cannot be fulfilled as requested. The inventory check revealed the following issues:
+
+- **High-Quality White Cardstock**: We can fulfill this item with a shortfall of 5 sheets; supplier delivery is expected today.
+- **Standard Printing Paper (A4)**: We are short 728 sheets. The supplier cannot deliver until April 18, 2025, which misses your required delivery date.
+- **Colored Paper**: This item is in stock and can be fulfilled.
+
+Due to the inability to fulfill the A4 paper requirement on time, the entire order has been rejected. You may consider adjusting your order or the quantities."
+19,2025-04-15,45121.45,4875.3,"Your order request cannot be fulfilled due to inventory issues:
+
+1. **Glossy Paper**: We have only 387 sheets available, and you requested 2000 sheets. We would need an additional 1613 sheets, but the supplier's delivery is only expected by April 22, 2025, which is after your due date.
+
+2. **Matte Paper**: There is no stock available for the 1500 sheets requested. Although matte paper exists in our catalog, it is not part of the tracked inventory for this order.
+
+3. **Cardstock in Assorted Colors**: We can fulfill this part of your order, requiring a reorder of 505 sheets, which could arrive by April 19, 2025.
+
+Overall, the fulfillment of your order has been blocked. Please let us know if you would like to adjust your order or explore alternative options. Thank you!"
+20,2025-04-17,45121.45,4875.3,"Your order request cannot be fulfilled for the following reasons:
+
+1. **Flyers**: Exists in the broader catalog but is not part of the tracked inventory available for this order.
+2. **Tickets**: Could not be mapped to a supported catalog item, so we cannot provide them.
+
+As a result, no transaction can be created. For the **posters**, there is a shortage of 1,301 units, but they can be restocked by April 24, 2025, which can meet your due date.
+
+Please let us know how you would like to proceed."

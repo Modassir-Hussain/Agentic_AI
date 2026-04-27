@@ -1,0 +1,21 @@
+--- [DEBUG] Starting Chunking ---
+--- [DEBUG] Calculating Embeddings (API Call) ---
+--- [DEBUG] Reading chunks from: chunks-20260415_084516_3e314783.csv ---
+--- [DEBUG] Total chunks to process: 6 ---
+--- [DEBUG] Processing chunk 1/6... Done. ---
+--- [DEBUG] Processing chunk 2/6... Done. ---
+--- [DEBUG] Processing chunk 3/6... Done. ---
+--- [DEBUG] Processing chunk 4/6... Done. ---
+--- [DEBUG] Processing chunk 5/6... Done. ---
+--- [DEBUG] Processing chunk 6/6... Done. ---
+--- [DEBUG] Saving to: embeddings-20260415_084516_3e314783.csv ---
+
+User Prompt: What is the podcast that Clara hosts about?
+
+Agent Response:
+Dear students,
+
+Clara hosts a podcast called "Crosscurrents" that explores the intersection of science, culture, and ethics. Each week, she interviews researchers, engineers, artists, and activists from various fields such as marine ecology, AI ethics, digital archiving, and more. The topics covered in the podcast range from brain-computer interfaces, neuroplasticity, and climate migration to prompt engineering and decentralized technologies.
+
+Best regards,
+[Your Name]

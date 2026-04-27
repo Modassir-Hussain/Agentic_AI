@@ -1,0 +1,8 @@
+Agent Response: The capital of France is Paris.
+Explanatory Note: The agent used general knowledge inherent to the gpt-3.5-turbo model to answer.
+
+==================================================
+RUBRIC CHECK: DIRECT PROMPT AGENT
+KNOWLEDGE SOURCE: This agent relies entirely on the LLM's internal
+pre-trained knowledge. No system prompt or external data was used.
+==================================================

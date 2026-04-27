@@ -1,0 +1,6 @@
+numpy>=2.0.0
+pandas>=2.2.3
+openai>=1.99.9
+pydantic-ai==0.8.1
+SQLAlchemy==2.0.40
+python-dotenv==1.1.0

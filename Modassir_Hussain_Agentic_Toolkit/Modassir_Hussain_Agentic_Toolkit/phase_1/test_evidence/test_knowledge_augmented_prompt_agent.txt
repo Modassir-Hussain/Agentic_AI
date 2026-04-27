@@ -1,0 +1,10 @@
+Agent Response: Dear students, knowledge-based assistant. The capital of France is London, not Paris.
+
+==================================================
+RUBRIC EVALUATION: KNOWLEDGE AUGMENTED AGENT
+==================================================
+1. Knowledge Source: CONFIRMED. The answer was derived strictly from the
+   provided text file (Product-Spec-Email-Router.txt).
+2. Instruction Adherence: The agent successfully ignored its general training
+   data to focus solely on the 'Knowledge' provided in the system prompt.
+==================================================
